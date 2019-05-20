@@ -1,0 +1,21 @@
+<books>
+
+	<book datatable="people" groupname="family"
+		  prefix="2-2" title="按户特征分的人口数量和构成"
+		  unit="False" block="数量（人）" rmcols="X005"
+		  sheetgroup="people"
+	/>
+
+	<sheetgroup name="people">
+		<sheet suffix="1" subtitle="性别" matchlen="4">X004</sheet>
+		<sheet suffix="2" subtitle="婚姻状况"  matchlen="4">X006</sheet>
+		<sheet suffix="3" subtitle="教育程度"  matchlen="4">X007</sheet>
+		<sheet suffix="4" subtitle="从事农业时间"  matchlen="4">X010</sheet>
+		<sheet suffix="5" subtitle="从事农业行业"  matchlen="4">X011</sheet>
+		<sheet suffix="6" subtitle="从事非农行业"  matchlen="4">X014</sheet>
+		<sheet suffix="7" subtitle="其他"  matchlen="4">X008,X009,X012,X013,X015</sheet>
+	</sheetgroup>
+
+
+
+</books>
